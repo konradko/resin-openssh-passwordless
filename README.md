@@ -20,7 +20,7 @@ SSH into a resin.io container using a public-key auth
 
 4. Deploy the application:
     ```
-    $ git push resin remote
+    $ make deploy
     ```
 
 ## Usage
