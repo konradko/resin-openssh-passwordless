@@ -1,5 +1,5 @@
 # resin-openssh-passwordless
-SSH into a resin.io container using a public-key auth
+SSH into a resin.io container using public-key auth
 
 ## Installation
 
