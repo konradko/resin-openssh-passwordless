@@ -27,5 +27,5 @@ SSH into a resin.io container using a public-key auth
 
 SSH into a container (you can get the device local IP address via resin.io dashboard or using [resin-cli](https://github.com/resin-io/resin-cli)), e.g.:
     
-    $ ./ssh 192.168.1.15
+    $ ./ssh.sh 192.168.1.15
 

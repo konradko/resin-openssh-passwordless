@@ -7,5 +7,5 @@ if [[ "$1" != "" ]]; then
     ssh-keygen -R $HOST
     ssh root@$HOST
 else
-    echo "Usage: ./ssh <hostname>"
+    echo "Usage: ./ssh.sh <hostname>"
 fi
