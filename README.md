@@ -13,10 +13,14 @@ SSH into a resin.io container using public-key auth
     $ git remote add resin username@git.resin.io:username/project.git
     ```
 
-3. Set the `CLIENT_PUBKEY` environment variable to your public key in resin.io dashboard, on OSX you can copy it with:
+3. In resin.io dashboard set `CLIENT_PUBKEYS` environment variable to '\n' separated list of public keys, on OSX you can copy your public key with:
     ```
     $ cat ~/.ssh/id_rsa.pub | pbcopy
     ```
+    | Environment variable | Example value | Description
+    | ------------- | ------------- | ------------- |
+    | CLIENT_PUBKEYS | ssh-rsa pubkeyone\nssh-rsa pubkeytwo | '\n' separated list of public keys that are allowed access |
+
 
 4. Deploy the application:
     ```

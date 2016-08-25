@@ -1,7 +1,7 @@
 SHELL := /bin/bash
 
 start:
-	./setup_ssh.sh
+	./init.sh
 
 deploy:
 	git push resin master
