@@ -1,5 +1,5 @@
 # resin-openssh-passwordless
-SSH into a resin.io container using public-key auth
+SSH using public-key auth into a resin.io container running on your local network.
 
 ## Installation
 
